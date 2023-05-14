@@ -91,7 +91,7 @@ const LoginAdmin = () => {
             </div>
             <div className='login-right col-4'>
                 <img src={Logologin} alt="BCR" className="login-logo" />
-                <h3 className='login-title'>
+                <h3 className='login-title' data-testid='tes welcome'>
                     Welcome, Admin BCR
                 </h3>
             <Form onSubmit={handleLogin}>

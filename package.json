@@ -51,5 +51,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "msw": "^1.2.1",
+    "react-test-renderer": "^18.2.0"
   }
 }
